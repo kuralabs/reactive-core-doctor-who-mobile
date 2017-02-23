@@ -20,6 +20,7 @@ class DoctorCell extends Component {
                             source={{ uri: doctor.image }}
                             style={styles.thumbnail}
                         />
+                        <Text style={styles.cellTitle}>{doctor.actor}</Text>
                     </View>
                 </TouchableHighlight>
             </View>

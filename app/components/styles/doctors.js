@@ -5,8 +5,13 @@ export default StyleSheet.create({
     cell: {
         alignItems: 'center',
         margin: 5,
+        height: 180,
         width: 150,
-        height: 150
+    },
+    cellTitle: {
+        color: Colors.text.highlight.light,
+        fontSize: 16,
+        fontWeight: 'bold'
     },
     container: {
         alignSelf: 'stretch',

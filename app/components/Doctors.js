@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import React, { Component } from 'react'
+import { ListView, View } from 'react-native'
 
-import styles from './styles/doctors';
+import DoctorCell from '../components/DoctorCell'
+
+import styles from './styles/doctors'
 
 class Doctors extends Component {
     constructor(props) {
@@ -9,9 +11,22 @@ class Doctors extends Component {
     }
 
     render() {
-        console.log(this.props.doctors)
         return (
             <View style={styles.container}>
+                <ListView
+                    contentContainerStyle={styles.grid}
+                    dataSource={this.props.doctorsDataSource}
+                    renderRow={
+                        (doctor) => {
+                            return (
+                                <DoctorCell
+                                    doctor={doctor}
+                                    onSelectDoctor={this.props.selectDoctor}
+                                />
+                            )
+                        }
+                    }
+                />
             </View>
         )
     }

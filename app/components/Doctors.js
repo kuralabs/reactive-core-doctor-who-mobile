@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { ListView, Modal, Text, TouchableHighlight, View } from 'react-native'
+import { ListView, Modal, Text, TouchableOpacity, View } from 'react-native'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 import Doctor from '../components/Doctor'
 import DoctorCell from '../components/DoctorCell'
@@ -12,8 +13,23 @@ class Doctors extends Component {
     }
 
     render() {
+        console.log(this.props.orderByNumber)
         return (
             <View style={styles.container}>
+                <View style={styles.toolbar}>
+                    <TouchableOpacity onPress={this.props.orderByName}>
+                        <View style={styles.toolbarItem}>
+                            <Text style={styles.toolbarItemText}>{'Order by name'}</Text>
+                            <Icon name="sort-alpha-asc" size={20} color="#FFF"/>
+                        </View>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={this.props.orderByNumber}>
+                        <View style={styles.toolbarItem}>
+                            <Text style={styles.toolbarItemText}>{'Order by number'}</Text>
+                            <Icon name="sort-numeric-asc" size={20} color="#FFF"/>
+                        </View>
+                    </TouchableOpacity>
+                </View>
                 <ListView
                     contentContainerStyle={styles.grid}
                     dataSource={this.props.doctorsDataSource}

@@ -17,7 +17,7 @@ export default StyleSheet.create({
         alignSelf: 'stretch',
         alignItems: 'center',
         flex: 1,
-        paddingTop: 40
+        marginTop: 20
     },
     grid: {
         alignSelf: 'stretch',
@@ -33,5 +33,27 @@ export default StyleSheet.create({
     thumbnail: {
         height: 150,
         width: 150
+    },
+    toolbar: {
+        alignItems: 'center',
+        alignSelf: 'stretch',
+        backgroundColor: Colors.background.light,
+        flexDirection: 'row',
+        height: 60,
+        justifyContent: 'center'
+    },
+    toolbarItem: {
+        alignItems: 'center',
+        alignSelf: 'stretch',
+        justifyContent: 'center',
+        flex: 1,
+        flexDirection: 'row',
+        margin: 10
+    },
+    toolbarItemText: {
+        color: Colors.text.primary.light,
+        fontSize: 14,
+        fontWeight: 'bold',
+        marginRight: 10
     }
 });

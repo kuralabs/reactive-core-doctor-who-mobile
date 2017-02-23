@@ -1,0 +1,3 @@
+[submodule "core-module"]
+	path = app/core-module
+	url = git@github.com:caroaguilar/reactive-core-doctor-who-core.git

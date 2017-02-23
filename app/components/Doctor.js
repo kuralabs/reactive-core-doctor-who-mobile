@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Text, TouchableHighlight, View } from 'react-native'
+import { Text, TouchableOpacity, View } from 'react-native'
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import styles from './styles/doctor'
 
@@ -13,6 +14,11 @@ class Doctor extends Component {
 
         return (
             <View style={styles.modal}>
+                <View style={styles.toolbar}>
+                    <TouchableOpacity onPress={this.props.closeModal}>
+                        <Icon name="close" size={30} color="#FFF" />
+                    </TouchableOpacity>
+                </View>
                 <View>
                     <Text style={styles.title}>{'Who Played Him:'}</Text>
                     <Text style={styles.text}>{doctor.actor}</Text>

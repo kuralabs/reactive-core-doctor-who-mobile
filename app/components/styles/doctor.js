@@ -2,6 +2,11 @@ import { StyleSheet } from 'react-native'
 import Colors from './colors'
 
 export default StyleSheet.create({
+    closeButton: {
+        color: Colors.text.primary.light,
+        fontSize: 18,
+        fontWeight: 'bold'
+    },
     modal: {
         backgroundColor: Colors.background.dark,
         flex: 1,
@@ -18,5 +23,10 @@ export default StyleSheet.create({
         fontSize: 16,
         paddingBottom: 20,
         paddingTop: 5
+    },
+    toolbar: {
+        alignItems: 'center',
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
     }
 });

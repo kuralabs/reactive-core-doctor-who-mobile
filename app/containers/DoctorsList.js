@@ -1,7 +1,7 @@
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { ListView, View } from 'react-native'
-import { orderByName, orderByNumber, selectDoctor } from '../core-module/actions'
+import { orderByName, orderByNumber, selectDoctor, showDoctorslist } from '../core-module/actions'
 import Doctors from '../components/Doctors'
 
 const ds = new ListView.DataSource({
@@ -13,7 +13,9 @@ const mapStateToProps = (state) => {
 
     return {
         doctors: doctors,
-        doctorsDataSource: ds.cloneWithRows(doctors)
+        doctorsDataSource: ds.cloneWithRows(doctors),
+        showDoctor: state.doctors.showDoctor,
+        doctor: state.doctors.doctor
     }
 }
 
@@ -21,7 +23,8 @@ const mapDispatchToProps = (dispatch) => {
     return bindActionCreators({
         orderByName,
         orderByNumber,
-        selectDoctor
+        selectDoctor,
+        showDoctorslist
     }, dispatch);
 }
 

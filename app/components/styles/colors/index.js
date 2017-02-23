@@ -13,8 +13,8 @@ const Colors = {
             dark: '#757575'
         },
         highlight: {
-            light: '#E65100',
-            dark: '#E65100'
+            light: '#003865',
+            dark: '#D50000'
         }
     }
 }

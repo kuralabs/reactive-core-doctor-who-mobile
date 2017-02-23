@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { ListView, View } from 'react-native'
+import { ListView, Modal, Text, TouchableHighlight, View } from 'react-native'
 
+import Doctor from '../components/Doctor'
 import DoctorCell from '../components/DoctorCell'
 
 import styles from './styles/doctors'
@@ -27,6 +28,17 @@ class Doctors extends Component {
                         }
                     }
                 />
+
+                <Modal
+                    animationType={"slide"}
+                    transparent={true}
+                    visible={this.props.showDoctor}
+                >
+                    <Doctor
+                        doctor={this.props.doctor}
+                        closeModal={this.props.showDoctorslist}
+                    />
+                </Modal>
             </View>
         )
     }

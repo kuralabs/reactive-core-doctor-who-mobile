@@ -4,9 +4,9 @@ import Colors from './colors'
 export default StyleSheet.create({
     cell: {
         alignItems: 'center',
-        margin: 10,
-        width: 100,
-        height: 100
+        margin: 5,
+        width: 150,
+        height: 150
     },
     container: {
         alignSelf: 'stretch',
@@ -20,8 +20,13 @@ export default StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap'
     },
+    modal: {
+        backgroundColor: Colors.background.dark,
+        flex: 1,
+        opacity: 0.9
+    },
     thumbnail: {
-        height: 100,
-        width: 100
+        height: 150,
+        width: 150
     }
 });

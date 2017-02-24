@@ -1,7 +1,7 @@
 const Colors = {
     background: {
-        dark: '#222222',
-        light: '#003865'
+        dark: '#003865',
+        light: '#E2E2E2'
     },
     text: {
         primary: {
@@ -14,7 +14,7 @@ const Colors = {
         },
         highlight: {
             light: '#003865',
-            dark: '#D50000'
+            dark: '#ACB109'
         }
     }
 }

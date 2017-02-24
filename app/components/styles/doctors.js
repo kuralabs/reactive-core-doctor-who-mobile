@@ -16,7 +16,7 @@ export default StyleSheet.create({
     container: {
         alignSelf: 'stretch',
         alignItems: 'center',
-        backgroundColor: Colors.background.ligth,
+        backgroundColor: Colors.background.light,
         flex: 1,
         marginTop: 20,
     },
@@ -38,7 +38,7 @@ export default StyleSheet.create({
     toolbar: {
         alignItems: 'center',
         alignSelf: 'stretch',
-        backgroundColor: Colors.background.light,
+        backgroundColor: Colors.background.dark,
         flexDirection: 'row',
         height: 60,
         justifyContent: 'center'

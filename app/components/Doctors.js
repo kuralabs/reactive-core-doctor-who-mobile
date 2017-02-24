@@ -49,6 +49,7 @@ class Doctors extends Component {
                     animationType={"slide"}
                     transparent={true}
                     visible={this.props.showDoctor}
+                    onRequestClose={this.props.showDoctorslist}
                 >
                     <Doctor
                         doctor={this.props.doctor}

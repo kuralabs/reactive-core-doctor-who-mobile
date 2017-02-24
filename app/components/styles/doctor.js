@@ -7,6 +7,12 @@ export default StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold'
     },
+    header: {
+        color: Colors.text.highlight.dark,
+        fontFamily: 'FiraSans-Bold',
+        fontSize: 50,
+        fontWeight: 'bold'
+    },
     modal: {
         backgroundColor: Colors.background.primary,
         flex: 1,

@@ -20,6 +20,8 @@ class Doctor extends Component {
                     </TouchableOpacity>
                 </View>
                 <View>
+                    <Text style={styles.header}>{`#${doctor.doctorNumber}`}</Text>
+                    <Text style={styles.text}>{doctor.description}</Text>
                     <Text style={styles.title}>{'Who Played Him:'}</Text>
                     <Text style={styles.text}>{doctor.actor}</Text>
                     <Text style={styles.title}>{'When:'}</Text>
@@ -30,7 +32,6 @@ class Doctor extends Component {
                     <Text style={styles.text}>{doctor.regeneration}</Text>
                     <Text style={styles.title}>{'Three Recommended Stories:'}</Text>
                     <Text style={styles.text}>{doctor.stories}</Text>
-                    <Text style={styles.text}>{doctor.description}</Text>
                 </View>
             </ScrollView>
         )

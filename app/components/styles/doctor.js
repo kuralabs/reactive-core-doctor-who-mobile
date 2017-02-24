@@ -8,7 +8,7 @@ export default StyleSheet.create({
         fontWeight: 'bold'
     },
     modal: {
-        backgroundColor: Colors.background.dark,
+        backgroundColor: Colors.background.primary,
         flex: 1,
         opacity: 0.9,
         padding: 40

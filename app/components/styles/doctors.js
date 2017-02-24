@@ -9,7 +9,7 @@ export default StyleSheet.create({
         width: 150,
     },
     cellTitle: {
-        color: Colors.text.highlight.light,
+        color: Colors.text.highlight.dark,
         fontFamily: 'FiraSans-Regular',
         fontSize: 16,
         marginTop: 5
@@ -17,7 +17,7 @@ export default StyleSheet.create({
     container: {
         alignSelf: 'stretch',
         alignItems: 'center',
-        backgroundColor: Colors.background.light,
+        backgroundColor: Colors.background.dark,
         flex: 1,
         marginTop: 20,
     },
@@ -39,7 +39,7 @@ export default StyleSheet.create({
     toolbar: {
         alignItems: 'center',
         alignSelf: 'stretch',
-        backgroundColor: Colors.background.dark,
+        backgroundColor: Colors.background.primary,
         flexDirection: 'row',
         height: 60,
         justifyContent: 'flex-end'

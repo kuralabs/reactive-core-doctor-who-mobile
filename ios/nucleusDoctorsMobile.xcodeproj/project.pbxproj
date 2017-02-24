@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -47,6 +46,9 @@
 		BE59A784251448ECB1E2BD26 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9AE264BDE7C4E2AB2D53DE6 /* SimpleLineIcons.ttf */; };
 		D6BFC58A76D7422FA75336CC /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02F0E06360C148C684432F94 /* MaterialCommunityIcons.ttf */; };
 		FDF73C3160F14E7FAB2B2A2B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D95AE8396D48E6BB1D9493 /* EvilIcons.ttf */; };
+		7E956F71EEE5442CB1EDC60D /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1DF461110274F73A3DF5CEF /* FiraSans-Bold.ttf */; };
+		EB4083B61A814B7583065C7B /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F37CAD26946946789E48B189 /* FiraSans-Light.ttf */; };
+		DC8C3BEF1C474D768AF34529 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57566A6ADD84425F96E781C9 /* FiraSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -285,6 +287,9 @@
 		D9AE264BDE7C4E2AB2D53DE6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		E0D95AE8396D48E6BB1D9493 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		FA9F19793AAA49B59A107B00 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		B1DF461110274F73A3DF5CEF /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; name = "FiraSans-Bold.ttf"; path = "../fonts/FiraSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F37CAD26946946789E48B189 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; name = "FiraSans-Light.ttf"; path = "../fonts/FiraSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57566A6ADD84425F96E781C9 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; name = "FiraSans-Regular.ttf"; path = "../fonts/FiraSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +472,9 @@
 				FA9F19793AAA49B59A107B00 /* Octicons.ttf */,
 				D9AE264BDE7C4E2AB2D53DE6 /* SimpleLineIcons.ttf */,
 				C6C72D618B92433886287EF2 /* Zocial.ttf */,
+				B1DF461110274F73A3DF5CEF /* FiraSans-Bold.ttf */,
+				F37CAD26946946789E48B189 /* FiraSans-Light.ttf */,
+				57566A6ADD84425F96E781C9 /* FiraSans-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -920,6 +928,9 @@
 				3B930E935D254CC691A9638E /* Octicons.ttf in Resources */,
 				BE59A784251448ECB1E2BD26 /* SimpleLineIcons.ttf in Resources */,
 				6D4E129160D1484397DA9008 /* Zocial.ttf in Resources */,
+				7E956F71EEE5442CB1EDC60D /* FiraSans-Bold.ttf in Resources */,
+				EB4083B61A814B7583065C7B /* FiraSans-Light.ttf in Resources */,
+				DC8C3BEF1C474D768AF34529 /* FiraSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

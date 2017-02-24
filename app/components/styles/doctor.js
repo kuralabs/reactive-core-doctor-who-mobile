@@ -15,11 +15,13 @@ export default StyleSheet.create({
     },
     title: {
         color: Colors.text.highlight.dark,
+        fontFamily: 'FiraSans-Bold',
         fontSize: 18,
         fontWeight: 'bold'
     },
     text: {
         color: Colors.text.primary.light,
+        fontFamily: 'FiraSans-Light',
         fontSize: 16,
         paddingBottom: 20,
         paddingTop: 5

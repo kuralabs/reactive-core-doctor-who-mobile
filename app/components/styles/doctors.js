@@ -10,6 +10,7 @@ export default StyleSheet.create({
     },
     cellTitle: {
         color: Colors.text.highlight.light,
+        fontFamily: 'FiraSans-Bold',
         fontSize: 16,
         fontWeight: 'bold'
     },
@@ -53,8 +54,8 @@ export default StyleSheet.create({
     },
     toolbarItemText: {
         color: Colors.text.primary.light,
-        fontSize: 14,
-        fontWeight: 'bold',
+        fontSize: 16,
+        fontFamily: 'FiraSans-Light',
         marginRight: 10
     }
 });

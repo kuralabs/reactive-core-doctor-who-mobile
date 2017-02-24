@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import { Platform, StyleSheet } from 'react-native'
 import Colors from './colors'
 
 export default StyleSheet.create({
@@ -19,7 +19,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         backgroundColor: Colors.background.dark,
         flex: 1,
-        marginTop: 20,
+        marginTop: Platform.OS === 'ios' ? 20 : 0,
     },
     grid: {
         alignSelf: 'stretch',

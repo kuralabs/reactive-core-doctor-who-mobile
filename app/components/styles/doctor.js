@@ -13,6 +13,13 @@ export default StyleSheet.create({
         fontSize: 50,
         fontWeight: 'bold'
     },
+    headerWrapper: {
+        alignSelf: 'stretch',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 20,
+        marginTop: 20
+    },
     modal: {
         backgroundColor: Colors.background.primary,
         flex: 1,
@@ -32,9 +39,13 @@ export default StyleSheet.create({
         paddingBottom: 20,
         paddingTop: 5
     },
+    thumbnail: {
+        height: 75,
+        width: 75
+    },
     toolbar: {
         alignItems: 'center',
         flexDirection: 'row',
-        justifyContent: 'flex-end',
+        justifyContent: 'flex-end'
     }
 });

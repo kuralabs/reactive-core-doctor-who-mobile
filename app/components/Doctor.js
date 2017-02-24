@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, TouchableOpacity, View } from 'react-native'
+import { ScrollView, Text, TouchableOpacity, View } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import styles from './styles/doctor'
@@ -13,7 +13,7 @@ class Doctor extends Component {
         let doctor = this.props.doctor;
 
         return (
-            <View style={styles.modal}>
+            <ScrollView style={styles.modal}>
                 <View style={styles.toolbar}>
                     <TouchableOpacity onPress={this.props.closeModal}>
                         <Icon name="close" size={30} color="#FFF" />
@@ -32,7 +32,7 @@ class Doctor extends Component {
                     <Text style={styles.text}>{doctor.stories}</Text>
                     <Text style={styles.text}>{doctor.description}</Text>
                 </View>
-            </View>
+            </ScrollView>
         )
     }
 }

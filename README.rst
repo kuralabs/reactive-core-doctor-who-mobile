@@ -68,6 +68,15 @@ The custom fonts files are in the `fonts` folder in the root of the project.
 the application after executing the above command.
 
 
+Data source
+===========
+
+The data used for this example was taken from IGN article "Doctor Who? A guide to all the
+doctors".
+
+http://www.ign.com/articles/2015/08/26/doctor-who-a-guide-to-all-the-doctors
+
+
 License
 =======
 

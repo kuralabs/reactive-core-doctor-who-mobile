@@ -16,8 +16,9 @@ export default StyleSheet.create({
     container: {
         alignSelf: 'stretch',
         alignItems: 'center',
+        backgroundColor: Colors.background.ligth,
         flex: 1,
-        marginTop: 20
+        marginTop: 20,
     },
     grid: {
         alignSelf: 'stretch',

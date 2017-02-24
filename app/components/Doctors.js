@@ -17,15 +17,15 @@ class Doctors extends Component {
         return (
             <View style={styles.container}>
                 <View style={styles.toolbar}>
+                    <Text style={styles.toolbarItemText}>{'Sort'}</Text>
+
                     <TouchableOpacity onPress={this.props.orderByName}>
                         <View style={styles.toolbarItem}>
-                            <Text style={styles.toolbarItemText}>{'Order by name'}</Text>
                             <Icon name="sort-alpha-asc" size={20} color="#FFF"/>
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={this.props.orderByNumber}>
                         <View style={styles.toolbarItem}>
-                            <Text style={styles.toolbarItemText}>{'Order by number'}</Text>
                             <Icon name="sort-numeric-asc" size={20} color="#FFF"/>
                         </View>
                     </TouchableOpacity>

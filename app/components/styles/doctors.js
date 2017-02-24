@@ -10,9 +10,9 @@ export default StyleSheet.create({
     },
     cellTitle: {
         color: Colors.text.highlight.light,
-        fontFamily: 'FiraSans-Bold',
+        fontFamily: 'FiraSans-Regular',
         fontSize: 16,
-        fontWeight: 'bold'
+        marginTop: 5
     },
     container: {
         alignSelf: 'stretch',
@@ -42,7 +42,7 @@ export default StyleSheet.create({
         backgroundColor: Colors.background.dark,
         flexDirection: 'row',
         height: 60,
-        justifyContent: 'center'
+        justifyContent: 'flex-end'
     },
     toolbarItem: {
         alignItems: 'center',
@@ -55,7 +55,7 @@ export default StyleSheet.create({
     toolbarItemText: {
         color: Colors.text.primary.light,
         fontSize: 16,
-        fontFamily: 'FiraSans-Light',
+        fontFamily: 'FiraSans-Bold',
         marginRight: 10
     }
 });

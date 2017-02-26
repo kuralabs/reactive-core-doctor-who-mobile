@@ -28,6 +28,9 @@ This architecture is composed by three modules:
     See: https://github.com/caroaguilar/reactive-core-doctor-who-web
 
 
+.. image:: docs/images/reactive-core-demo-img.jpg
+
+
 
 Build and run
 =============
